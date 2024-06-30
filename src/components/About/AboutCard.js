@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
+
 
 function AboutCard() {
   return (
@@ -8,10 +8,10 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Ashutosh Waghire </span>
+            Hi Everyone, I am <span className="purple">Ashutosh </span>
             from <span className="purple"> Pune, India.</span>
             <br />
-            I am currently pursuing BE from RMD Sinhgad School of Engineering, Warje, Pune. 
+            I am currently <span className="purple">Graduating in IT '26</span> from <span className="purple">RMD Sinhgad School of Engineering, Warje, Pune. </span>
             {/* <br />
             I have completed Integrated MSc (IMSc) in Maths and Computing at BIT
             Mesra.
@@ -21,20 +21,20 @@ function AboutCard() {
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <p/> ⚡ Passionate about creating content 🎥
             </li>
             <li className="about-activity">
-              <ImPointRight /> Reading Books
+              <p/> 🚀 Absolutely love travelling ✈️
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <p/> 🔥Enjoy playing games 🎮
             </li>
           </ul>
 
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive for more knowledge"{" "}
+          <p style={{ color: "#6098f0" }}>
+            "The only way to do great work is to love what you do."{" "}
           </p>
-          <footer className="blockquote-footer">Ashutosh</footer>
+          <footer className="blockquote-footer">Steve Jobs</footer>
         </blockquote>
       </Card.Body>
     </Card>
